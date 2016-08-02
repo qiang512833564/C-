@@ -115,7 +115,7 @@ inline T const& max(T const &a, T const &b)
     //使得它从曾经的容量减少至它现在需要的容量，这样减少容量的方法被称为“收缩到合适（shrink to fit）”
     std::vector<std::string>().swap(array);
     
-    // 上面的作用相当于：
+    // 上面的作用相当于：也可以在一个被{}包围的代码段里面进行释放，
     {
         std::vector<std::string> temp(array);
         temp.swap(array);
