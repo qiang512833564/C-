@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C5B32C981D50422100838977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B32C971D50422100838977 /* main.m */; };
 		C5B32CA01D50423500838977 /* TemplateOne.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5B32C9F1D50423500838977 /* TemplateOne.mm */; };
+		C5F2804E1D508ABD00A67D49 /* RootObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5F2804D1D508ABD00A67D49 /* RootObject.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		C5B32C971D50422100838977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5B32C9E1D50423500838977 /* TemplateOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateOne.h; sourceTree = "<group>"; };
 		C5B32C9F1D50423500838977 /* TemplateOne.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TemplateOne.mm; sourceTree = "<group>"; };
+		C5F2804C1D508ABD00A67D49 /* RootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootObject.h; sourceTree = "<group>"; };
+		C5F2804D1D508ABD00A67D49 /* RootObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootObject.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		C5B32C961D50422100838977 /* TeamplateStudy */ = {
 			isa = PBXGroup;
 			children = (
+				C5F2804C1D508ABD00A67D49 /* RootObject.h */,
+				C5F2804D1D508ABD00A67D49 /* RootObject.mm */,
 				C5B32C971D50422100838977 /* main.m */,
 				C5B32C9E1D50423500838977 /* TemplateOne.h */,
 				C5B32C9F1D50423500838977 /* TemplateOne.mm */,
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F2804E1D508ABD00A67D49 /* RootObject.mm in Sources */,
 				C5B32CA01D50423500838977 /* TemplateOne.mm in Sources */,
 				C5B32C981D50422100838977 /* main.m in Sources */,
 			);
@@ -245,6 +251,7 @@
 				C5B32C9D1D50422100838977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
